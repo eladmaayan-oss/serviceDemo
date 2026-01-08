@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             int itemId = item.getItemId();
 
             if (itemId == R.id.nav_music) {
-                selectedFragment = new MusicFragment();
+                selectedFragment = new MusicWithServiceFragment();
             } else if (itemId == R.id.nav_map) {
                 selectedFragment = new MapFragment();
             }
